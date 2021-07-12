@@ -20,4 +20,6 @@ public class ListOfIds {
     public void setLongList(List<Long> longList) {
         this.longList = longList;
     }
+
+
 }

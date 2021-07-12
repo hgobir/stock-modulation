@@ -81,6 +81,17 @@ public class Company  {
         this.stock = stock;
     }
 
+//    public Company(Long companyId, String name, String description, String sector, String ceo, String address, Long valuation, Stock stock) {
+//        this.companyId = companyId;
+//        this.name = name;
+//        this.description = description;
+//        this.sector = sector;
+//        this.ceo = ceo;
+//        this.address = address;
+//        this.valuation = valuation;
+//        this.stock = stock;
+//    }
+
     public Company() { }
 
     public Long getCompanyId() {

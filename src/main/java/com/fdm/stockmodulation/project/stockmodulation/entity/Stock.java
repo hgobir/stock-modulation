@@ -94,6 +94,25 @@ public class Stock {
     }
 
 
+    public Stock(
+            Long stockId,
+            Double currentValue,
+            Long currentVolume,
+            String symbol,
+            Double gains,
+            Double open,
+            Double close
+    ) {
+        this.stockId = stockId;
+        this.currentValue = currentValue;
+        this.currentVolume = currentVolume;
+        this.symbol = symbol;
+        this.gains = gains;
+        this.open = open;
+        this.close = close;
+    }
+
+
 //    public Stock(
 //            Double currentValue,
 //            Long currentVolume,
